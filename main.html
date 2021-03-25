@@ -16,21 +16,33 @@
         <div class="header">
             <div class="header_logo">
                 <ion-icon name="logo-instagram"></ion-icon>
-                <div class="vertical-border"></div>
-                <img src="media/logo.png" alt="Logo do Instagram">
+                <div class="vertical-border hide-on-mobile"></div>
+                <img src="media/logo.png" alt="Logo do Instagram" class="hide-on-mobile">
             </div>
+
+            <img src="media/logo.png">
 
             <input type="text" placeholder="Pesquisar">
             </input>
            
             <div class="header_icons">
                 <ion-icon name="paper-plane-outline"></ion-icon>
-                <ion-icon name="compass-outline"></ion-icon>
-                <ion-icon name="heart-outline"></ion-icon>
-                <ion-icon name="person-outline"></ion-icon>
+                <ion-icon name="compass-outline" class="hide-on-mobile"></ion-icon>
+                <ion-icon name="heart-outline" class="hide-on-mobile"></ion-icon>
+                <ion-icon name="person-outline" class="hide-on-mobile"></ion-icon>
             </div>
         </div>
     </div>
+
+    <div class="footer">
+        <ion-icon name="home"></ion-icon>
+        <ion-icon name="search-outline"></ion-icon>
+        <ion-icon name="add-circle-outline"></ion-icon>
+        <ion-icon name="heart-outline"></ion-icon>
+        <ion-icon name="person-outline"></ion-icon>
+    </div>
+
+
 
      <div class="container">
 
@@ -38,7 +50,7 @@
 
             <div class="stories">
 
-                <ion-icon name="chevron-forward-circle"></ion-icon>
+                <ion-icon name="chevron-forward-circle" class="hide-on-mobile"></ion-icon>
 
                 <div class="stories_unit">
                     <div class="stories_unit_pic">
@@ -122,9 +134,9 @@
                     </div>
                     <ion-icon name="ellipsis-horizontal"></ion-icon>
                 </div>
-                <video width="614" height="614" controls>       <!-- video configs -->
-                    <source src="media/post/prazer.mp4" type="video/mp4">
-                    <source src="media/post/prazer.ogg" type="video/ogg">
+                <video width="614" height="614" autoplay>       <!-- video configs -->
+                    <source src="media/post/Leave Her Johnny - The Longest Johns - Mass Choir Community Video Project.mp4" type="video/mp4">
+                    <source src="media/post/Leave Her Johnny - The Longest Johns - Mass Choir Community Video Project.ogg" type="video/ogg">
                 Your browser does not support the video tag.
                 </video>
                 <div class="post_icons">
@@ -144,7 +156,7 @@
 
         </div>
 
-        <div class="sidebar hide-on-mobile">
+        <div class="sidebar">
             <div class="sidebar_top">
                 <img src="media/sidebar/neon.jpg">
                 <div class="sidebar_top_name">
