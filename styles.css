@@ -74,7 +74,7 @@ ion-icon {
 }
     .stories {
         height: 118px;
-        margin-bottom: 20px;
+        margin-bottom: 24px;
         border: 1px solid #dbdbdb;
         border-radius: 3px;
         background-color: #fff;
@@ -83,7 +83,14 @@ ion-icon {
         flex-wrap: no-wrap;
         overflow: hidden;
         font-size: 12px;
+        position: relative;
     }
+        .stories ion-icon {
+            position: absolute;
+            color: #fff;
+            right: 0;
+            font-size: 32px;
+        }
         .stories_unit {
             width: 66px;
 
@@ -112,7 +119,7 @@ ion-icon {
     .post {
         background-color: #fff;
         font-size: 14px;
-        margin-bottom: 50px;
+        margin-bottom: 60px;
         border: 1px solid #dbdbdb;
         border-radius: 3px;
     }
@@ -211,7 +218,7 @@ ion-icon {
             display: flex;
         }
             .sidebar_list_left span {
-                font-weight: 500;      
+                font-weight: 500 ;      
                 color: #979797;
             }
         .sidebar_list img {
