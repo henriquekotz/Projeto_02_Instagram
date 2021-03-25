@@ -64,11 +64,12 @@ ion-icon {
     }
 
 
-    .container {
-    width: 935px;
-    margin: 0 auto;
-    display: flex;
+.container {
+width: 935px;
+margin: 0 auto;
+display: flex;
 }
+
 .feed {
     width: 614px;
 }
@@ -85,7 +86,7 @@ ion-icon {
         font-size: 12px;
         position: relative;
     }
-        .stories ion-icon {
+        .stories ion-icon {         /* icon shadow */
             position: absolute;
             color: #fff;
             right: 0;
@@ -232,3 +233,17 @@ ion-icon {
         color: #c7c7c7;
         margin-top: 50px;
     }
+
+
+
+
+@media (max-width: 935px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+        justify-content: center;
+    }
+}
