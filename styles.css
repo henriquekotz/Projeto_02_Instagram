@@ -17,7 +17,9 @@ ion-icon {
     font-size: 20px;
 }
 
-
+img {
+    object-fit: cover;
+}
 
 .horizontal-border {
     width: 100vw;
@@ -29,6 +31,7 @@ ion-icon {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 10;
 }
 
 .header {
@@ -264,6 +267,10 @@ display: flex;
         display: none;
     }
 
+    .header {
+        padding: 0 10px;
+    }
+
     .container {
         width: 100%;
         justify-content: center;
@@ -277,6 +284,10 @@ display: flex;
 
     .body {
         margin-top: 54px;
+    }
+
+    .header > img {
+        display: block;
     }
 
     .feed {
